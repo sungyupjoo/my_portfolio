@@ -16,11 +16,13 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col">
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
-            <h1 className="text-4xl font-semibold">
-              sungyup<span className="text-accent">joo</span>
+            <h1 className="text-4xl font-semibold m-2">
+              sungyup <span className="text-accent">joo</span>
             </h1>
+            <p className="text-sm font-m">
+              <span className="text-accent">프론트엔드</span> 개발자
+            </p>
           </Link>
-          logo
         </div>
         <nav className="flex flex-col justify-center items-center gap-8">
           {navigationLinks.map((link, index) => {

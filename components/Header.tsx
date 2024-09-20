@@ -3,15 +3,21 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import FlipText from "./FlipText";
 
 const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <h1 className="text-4xl font-semibold">
-            sungyup<span className="text-accent">.</span>
-          </h1>
+          <div className="flex">
+            <h1 className="text-4xl font-semibold">
+              <FlipText>sungyup</FlipText>
+              <span className="text-accent">
+                <FlipText>.</FlipText>
+              </span>
+            </h1>
+          </div>
         </Link>
         {/* Desktop nav */}
         <div className="hidden xl:flex items-center gap-8">

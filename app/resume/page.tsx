@@ -1,5 +1,5 @@
-const Resume = () => {
-  return <div>Resume page</div>;
+const Skills = () => {
+  return <div>Skills page</div>;
 };
 
-export default Resume;
+export default Skills;
