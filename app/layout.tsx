@@ -3,6 +3,11 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 
+// components
+import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
+
 const pretendard = localFont({
   src: "../static/fonts/PretendardVariable.woff2",
   display: "swap",
@@ -22,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="kr" className={`${pretendard.variable}`}>
-      <body className={`${pretendard.className} antialiased`}>{children}</body>
+      <body className={`${pretendard.className} antialiased`}>
+        <Header />
+        <StairTransition />
+        <PageTransition>{children}</PageTransition>
+      </body>
     </html>
   );
 }
