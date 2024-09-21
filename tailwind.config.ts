@@ -29,7 +29,7 @@ const config: Config = {
           hover: "#1B3247",
         },
         secondary: {
-          DEFAULT: "#335C74",
+          DEFAULT: "#1B3247",
         },
       },
       borderRadius: {
