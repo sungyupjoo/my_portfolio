@@ -13,41 +13,21 @@ const Photo = () => {
           transition: { delay: 2, duration: 0.4, ease: "easeInOut" },
         }}
       >
-        <motion.div className="w-[250px] h-[250px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden shadow-xl">
+        <motion.div className="w-[250px] h-[250px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden shadow-xl relative">
           <Image
             src="/static/assets/profilepicture.jpeg"
             alt="profile_image"
             priority
             quality={100}
             fill
-            className="object-cover rounded-full shadow-xl"
+            className="object-cover rounded-full shadow-xl mix-blend-lighten"
           />
           <motion.svg
-            className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+            className="absolute top-0 left-0 w-full h-full"
             fill="transparent"
-            viewBox="0 0 506 506"
+            viewBox="0 0 450 450"
             xmlns="http://www.w3.org/2000/svg"
-          >
-            <motion.circle
-              cx="253"
-              cy="253"
-              r="250"
-              stroke="#00ff99"
-              strokeWidth="4"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              initial={{ strokeDasharray: "24 10 0 0 " }}
-              animate={{
-                strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
-                rotate: [120, 360],
-              }}
-              transition={{
-                duration: 20,
-                repeat: Infinity,
-                repeatType: "reverse",
-              }}
-            />
-          </motion.svg>
+          ></motion.svg>
         </motion.div>
       </motion.div>
     </div>
