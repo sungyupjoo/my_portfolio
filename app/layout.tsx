@@ -16,7 +16,7 @@ const pretendard = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Sungyup's Portfolio",
+  title: "주성엽 포트폴리오",
   description: "front-end developer sungyup joo",
 };
 

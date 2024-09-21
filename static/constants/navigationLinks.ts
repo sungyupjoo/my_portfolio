@@ -13,8 +13,8 @@ export const navigationLinks: LinkType[] = [
     path: "/about",
   },
   {
-    name: "skills",
-    path: "/skills",
+    name: "resume",
+    path: "/resume",
   },
   {
     name: "projects",
