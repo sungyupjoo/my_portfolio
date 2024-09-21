@@ -18,7 +18,7 @@ export default function Home() {
               </span>{" "}
               개발자
             </h3>
-            <h1 className="h1">
+            <h1 className="h1 align-middle">
               <span className="text-accent">
                 <FlipText>주성엽</FlipText>
               </span>
