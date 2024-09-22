@@ -1,6 +1,5 @@
 "use client";
 
-import { delay } from "@/static/constants/delay";
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
