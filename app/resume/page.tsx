@@ -167,10 +167,12 @@ const Resume = () => {
                           key={index}
                           className="flex items-center justify-start gap-4"
                         >
-                          <span className="text-white/60">
+                          <span className="text-white/60 break-keep">
                             {item.fieldName}
                           </span>
-                          <span className="text-xl">{item.fieldValue}</span>
+                          <span className="text-xl break-keep">
+                            {item.fieldValue}
+                          </span>
                         </li>
                       );
                     })}

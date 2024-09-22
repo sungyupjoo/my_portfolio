@@ -3,20 +3,28 @@ export const info = {
   description: "기본 신상 정보",
   info: [
     {
-      fieldName: "Name",
+      fieldName: "이름",
       fieldValue: "주성엽",
     },
     {
-      fieldName: "Email",
+      fieldName: "이메일",
       fieldValue: "chickenjuicyham@gmail.com",
     },
     {
-      fieldName: "Experience",
+      fieldName: "경력(회계)",
+      fieldValue: "5년",
+    },
+    {
+      fieldName: "경력(개발)",
       fieldValue: "2+ years",
     },
     {
-      fieldName: "Languages",
-      fieldValue: "한국어, English",
+      fieldName: "언어(유창)",
+      fieldValue: "한국어, 영어",
+    },
+    {
+      fieldName: "언어(중급)",
+      fieldValue: "스페인어, 베트남어",
     },
   ],
 };

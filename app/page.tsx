@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import FlipText from "@/components/FlipText";
+import { delay } from "@/static/constants/delay";
 
 export default function Home() {
   return (
@@ -14,13 +15,13 @@ export default function Home() {
               <br />
               반갑습니다,{" "}
               <span className="text-accent">
-                <FlipText>프론트엔드</FlipText>
+                <FlipText delay={delay}>프론트엔드</FlipText>
               </span>{" "}
               개발자
             </h3>
             <h1 className="h1 align-middle">
               <span className="text-accent">
-                <FlipText>주성엽</FlipText>
+                <FlipText delay={delay}>주성엽</FlipText>
               </span>
               입니다
             </h1>
