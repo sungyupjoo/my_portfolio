@@ -5,13 +5,7 @@ import { motion } from "framer-motion";
 const DURATION = 0.25;
 const STAGGER = 0.025;
 
-const FlipText = ({
-  children,
-  delay = 0,
-}: {
-  children: string;
-  delay?: number;
-}) => {
+const FlipText = ({ children }: { children: string }) => {
   return (
     <motion.div
       initial="initial"

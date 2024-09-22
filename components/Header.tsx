@@ -4,7 +4,6 @@ import { Button } from "./ui/button";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import FlipText from "./FlipText";
-import { delay } from "@/static/constants/delay";
 
 const Header = () => {
   return (
@@ -13,9 +12,9 @@ const Header = () => {
         <Link href="/">
           <div className="flex">
             <h1 className="text-4xl font-semibold">
-              <FlipText delay={delay + 0.2}>sungyup</FlipText>
+              <FlipText>sungyup</FlipText>
               <span className="text-accent">
-                <FlipText delay={delay + 0.2}>.</FlipText>
+                <FlipText>.</FlipText>
               </span>
             </h1>
           </div>
