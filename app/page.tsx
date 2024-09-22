@@ -11,8 +11,10 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left xl:order-none order-2">
             <h3 className="h3 font-medium mb-4">
+              반갑습니다,
               <br />
-              반갑습니다,{" "}
+            </h3>
+            <h3 className="h3 font-medium mb-4">
               <span className="text-accent">
                 <FlipText>프론트엔드</FlipText>
               </span>{" "}
@@ -32,7 +34,7 @@ export default function Home() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="uppercase flex items-center gap-2"
+                  className="flex items-center gap-2"
                 >
                   <span className="font-bold text-[1rem]">이력서</span>
                   <FiDownload className="text-xl" />
