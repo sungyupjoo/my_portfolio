@@ -20,7 +20,7 @@ const Photo = () => {
             priority
             quality={100}
             fill
-            className="object-cover rounded-full shadow-xl mix-blend-lighten"
+            className="object-cover rounded-full shadow-xl"
           />
           <motion.svg
             className="absolute top-0 left-0 w-full h-full"

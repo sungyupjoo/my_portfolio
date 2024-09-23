@@ -23,7 +23,7 @@ export const projects: ProjectType[] = [
       { name: "Firebase" },
     ],
     image: "/static/assets/bremen.png",
-    link: "https://play.google.com/store/apps/details?number=com.walkingbass.bremen&pli=1",
+    link: "https://play.google.com/store/apps/details?id=com.walkingbass.bremen",
     github: "https://github.com/team-legato/bremen-rn",
   },
   {
