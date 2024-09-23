@@ -35,7 +35,7 @@ export const projects: ProjectType[] = [
     stack: [
       { name: "Next.js" },
       { name: "Typescript" },
-      { name: "Tailwind css" },
+      { name: "Emotion" },
       { name: "Firebase" },
     ],
     image: "/static/assets/lifeisjazz.png",
