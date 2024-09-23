@@ -37,7 +37,7 @@ const Resume = () => {
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="info">Info</TabsTrigger>
           </TabsList>
-          <div className="h-[73vh] w-full">
+          <div className="h-full w-full">
             <TabsContent value="skills" className="w-full h-full">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
