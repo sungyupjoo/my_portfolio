@@ -31,6 +31,7 @@ const Contact = () => {
           "zNNbN8bRZeaVnTESq"
         )
         .then((result) => {
+          console.log(result);
           router.push("/thankyou");
         })
         .catch((err) => console.log(err));
