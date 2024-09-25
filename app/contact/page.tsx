@@ -60,13 +60,19 @@ const Contact = () => {
                 업무 관련 연락을 남겨주시면, 확인하는대로 답신 드리겠습니다.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="name" placeholder="조직명" name="name" />
-                <Input type="email" placeholder="이메일 주소" name="email" />
+                <Input type="name" placeholder="조직명" name="name" required />
+                <Input
+                  type="email"
+                  placeholder="이메일 주소"
+                  name="email"
+                  required
+                />
               </div>
               <Textarea
                 className="h-[200px]"
                 placeholder="메시지를 입력해주세요"
                 name="message"
+                required
               />
               <Button size="md" className="max-w-40">
                 전송
