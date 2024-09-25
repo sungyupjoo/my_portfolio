@@ -11,10 +11,10 @@ import {
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
-import { experience } from "@/static/constants/experience";
 import { education } from "@/static/constants/education";
 import { skills } from "@/static/constants/skills";
 import { info } from "@/static/constants/info";
+import { experience } from "@/static/constants/experience";
 
 const Resume = () => {
   return (
@@ -24,7 +24,7 @@ const Resume = () => {
         opacity: 1,
         transition: { delay: 0.5, duration: 0.2, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+      className="min-h-[80vh] flex justify-center py-12 xl:py-0"
     >
       <div className="container mx-10">
         <Tabs
@@ -78,6 +78,7 @@ const Resume = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
               >
+                {/* <Experience /> */}
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{experience.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
