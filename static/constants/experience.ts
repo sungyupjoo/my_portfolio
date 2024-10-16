@@ -5,9 +5,9 @@ export const experience = {
     "늘 향상심과 주인 의식을 가지고 조직과 제 스스로를 발전시키고자 최선을 다해왔습니다.",
   items: [
     {
-      org: "구직 중",
+      org: "OptimizerAI",
       position: "Front-End Developer",
-      duration: "2024.07 ~ Present",
+      duration: "2024.10 ~ Present",
     },
     {
       org: "Life is Jazz",
