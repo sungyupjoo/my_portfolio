@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import Image from "next/image";
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Photo = () => {
   return (
@@ -10,7 +10,7 @@ const Photo = () => {
         initial={{ opacity: 0 }}
         animate={{
           opacity: 1,
-          transition: { delay: 2, duration: 0.4, ease: "easeInOut" },
+          transition: { delay: 1, duration: 0.3, ease: 'easeInOut' },
         }}
       >
         <motion.div className="w-[250px] h-[250px] xl:w-[450px] xl:h-[450px] rounded-full overflow-hidden shadow-xl relative">
